@@ -53,27 +53,6 @@ export default function Home() {
               <FileText className="h-4 w-4" />
               Download Resume
             </a>
-            
-            <ul className="ml-1 flex items-center gap-5">
-              <li className="shrink-0">
-                <a href="https://github.com/nayan-pise" target="_blank" rel="noreferrer" className="block text-gray-300 hover:text-amber-400 transition-colors drop-shadow-md">
-                  <span className="sr-only">GitHub</span>
-                  <Github className="h-6 w-6" />
-                </a>
-              </li>
-              <li className="shrink-0">
-                <a href="https://www.linkedin.com/in/nayan-pise-94a62a346/" target="_blank" rel="noreferrer" className="block text-gray-300 hover:text-amber-400 transition-colors drop-shadow-md">
-                  <span className="sr-only">LinkedIn</span>
-                  <Linkedin className="h-6 w-6" />
-                </a>
-              </li>
-              <li className="shrink-0">
-                <a href="mailto:nayan.pise8347@gmail.com" className="block text-gray-300 hover:text-amber-400 transition-colors drop-shadow-md">
-                  <span className="sr-only">Email</span>
-                  <Mail className="h-6 w-6" />
-                </a>
-              </li>
-            </ul>
           </div>
         </header>
 
@@ -274,6 +253,10 @@ export default function Home() {
             >
               <h3 className="mb-4 text-lg font-bold text-white drop-shadow-sm">Connect & Profiles</h3>
               <div className="flex flex-col gap-4">
+                <a href="mailto:nayan.pise8347@gmail.com" className="group flex items-center gap-3 text-gray-100 hover:text-amber-400 transition-colors font-medium text-[1.05rem]">
+                  <Mail className="h-6 w-6 text-amber-500 group-hover:scale-110 transition-transform" />
+                  Email: nayan.pise8347@gmail.com
+                </a>
                 <a href="https://github.com/nayan-pise" target="_blank" rel="noreferrer" className="group flex items-center gap-3 text-gray-100 hover:text-amber-400 transition-colors font-medium text-[1.05rem]">
                   <Github className="h-6 w-6 text-amber-500 group-hover:scale-110 transition-transform" />
                   GitHub: nayan-pise
